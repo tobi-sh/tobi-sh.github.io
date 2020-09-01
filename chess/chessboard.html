@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chessboard</title>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+<body>
+    <div id="chessboard" style="width: 100%; height: 100%">
+        <svg id="canvas" width="100%" height="2000px">
+           <defs>
+                <path xmlns="http://www.w3.org/2000/svg" d="M 34.90418,23.96875 C 35.21668,27.9375 32.74793,32.6875 24.15418,35.34375 C 17.68543,38.375 15.87293,46.71875 12.52918,47.09375 C 12.08049,46.460309 8.77176,46.796981 12.67926,42.054197 C 8.82066,46.740113 3.54128,42.599958 4.52918,38.46875 C 5.02918,32.96875 11.40418,28.0625 11.90418,23.96875 C 9.90418,18.625 16.40418,14.09375 16.40418,14.09375 L 16.52918,5.34375 L 24.52918,9.84375 L 28.77918,4.84375 L 32.02918,11.71875 C 57.02918,6.96875 58.49793,47.40625 59.59168,59.09375 L 19.90418,59.15625 C 17.71668,50.09375 33.09168,44.84375 31.65418,31.59375 M 24.52918,9.84375 L 16.90418,13.84375" style="fill:#000022;fill-opacity:0.8;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dashoffset:0;stroke-opacity:1" id="knightDef"/>
+                <linearGradient id="Gradient2" x1="0" x2="0" y1="0" y2="1">
+                <stop offset="0%" stop-color="white"/>
+                <stop offset="25%" stop-color="yellow"/>
+                <stop offset="50%" stop-color="green"/>
+                <stop offset="75%" stop-color="blue" />
+                <stop offset="100%" stop-color="black"/>
+              </linearGradient>
+           </defs>
+        </svg>
+    </div>
+    <script type="text/javascript" src="board.js"></script>
+</body>
+</html>

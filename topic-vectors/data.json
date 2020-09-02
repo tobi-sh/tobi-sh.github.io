@@ -1,0 +1,628 @@
+{
+  "nodes" : [ {
+    "node" : 69,
+    "name" : "visual arts & music",
+    "layer" : 0
+  }, {
+    "node" : 138,
+    "name" : "application & salary negotiation",
+    "layer" : 0
+  }, {
+    "node" : 101,
+    "name" : "embedded systems & system engineering",
+    "layer" : 0
+  }, {
+    "node" : 170,
+    "name" : "big data",
+    "layer" : 0
+  }, {
+    "node" : 115,
+    "name" : "contruction",
+    "layer" : 0
+  }, {
+    "node" : 5,
+    "name" : "IT consulting",
+    "layer" : 0
+  }, {
+    "node" : 120,
+    "name" : "hotel industry",
+    "layer" : 0
+  }, {
+    "node" : 202,
+    "name" : "salary transparancy & equality",
+    "layer" : 0
+  }, {
+    "node" : 10,
+    "name" : "lifetime learning & development",
+    "layer" : 0
+  }, {
+    "node" : 56,
+    "name" : "architecture & building design",
+    "layer" : 0
+  }, {
+    "node" : 24410,
+    "name" : "Application",
+    "layer" : 1
+  }, {
+    "node" : 24432,
+    "name" : "Software Development",
+    "layer" : 1
+  }, {
+    "node" : 24256,
+    "name" : "Construction",
+    "layer" : 1
+  }, {
+    "node" : 20665,
+    "name" : "Events",
+    "layer" : 1
+  }, {
+    "node" : 32710,
+    "name" : "Planning",
+    "layer" : 1
+  }, {
+    "node" : 19868,
+    "name" : "Processes",
+    "layer" : 1
+  }, {
+    "node" : 18260,
+    "name" : "Creativity",
+    "layer" : 1
+  }, {
+    "node" : 527,
+    "name" : "Senior",
+    "layer" : 1
+  }, {
+    "node" : 4607719,
+    "name" : "Popular Music",
+    "layer" : 1
+  }, {
+    "node" : 4443261,
+    "name" : "Engineering Sciences",
+    "layer" : 1
+  }, {
+    "node" : 18286,
+    "name" : "Enthusiasm",
+    "layer" : 1
+  }, {
+    "node" : 25006,
+    "name" : "Job Vacancy",
+    "layer" : 1
+  }, {
+    "node" : 24152,
+    "name" : "Management",
+    "layer" : 1
+  }, {
+    "node" : 23049,
+    "name" : "Social Media",
+    "layer" : 1
+  }, {
+    "node" : 468754,
+    "name" : "German",
+    "layer" : 1
+  }, {
+    "node" : 5031,
+    "name" : "Help Desk Support Specialist",
+    "layer" : 1
+  }, {
+    "node" : 34638,
+    "name" : "Checking",
+    "layer" : 1
+  }, {
+    "node" : 38676,
+    "name" : "harpsichord",
+    "layer" : 1
+  }, {
+    "node" : 19383,
+    "name" : "Media",
+    "layer" : 1
+  }, {
+    "node" : 31350,
+    "name" : "Inside Sales",
+    "layer" : 1
+  }, {
+    "node" : 22873,
+    "name" : "MS Office",
+    "layer" : 1
+  }, {
+    "node" : 22221,
+    "name" : "Engineering",
+    "layer" : 1
+  }, {
+    "node" : 36177,
+    "name" : "English Language",
+    "layer" : 1
+  }, {
+    "node" : 23758,
+    "name" : "Chamber music",
+    "layer" : 1
+  }, {
+    "node" : 18839,
+    "name" : "Computer Science",
+    "layer" : 1
+  }, {
+    "node" : 5428147,
+    "name" : "Solution",
+    "layer" : 1
+  }, {
+    "node" : 22170,
+    "name" : "Electrical Engineering",
+    "layer" : 1
+  }, {
+    "node" : 37038,
+    "name" : "Computer Science",
+    "layer" : 1
+  }, {
+    "node" : 37017,
+    "name" : "Marketing, Distribution",
+    "layer" : 1
+  }, {
+    "node" : 37085,
+    "name" : "Management",
+    "layer" : 1
+  }, {
+    "node" : 18275,
+    "name" : "Customer orientation",
+    "layer" : 1
+  }, {
+    "node" : 37202,
+    "name" : "Project management",
+    "layer" : 1
+  }, {
+    "node" : 6105,
+    "name" : "Project Manager",
+    "layer" : 1
+  }, {
+    "node" : 469583,
+    "name" : "Seminar",
+    "layer" : 1
+  }, {
+    "node" : 5487130,
+    "name" : "Degree",
+    "layer" : 1
+  }, {
+    "node" : 32769,
+    "name" : "Support",
+    "layer" : 1
+  }, {
+    "node" : 37037,
+    "name" : "Electrical engineering",
+    "layer" : 1
+  }, {
+    "node" : 5426,
+    "name" : "Software Developer",
+    "layer" : 1
+  }, {
+    "node" : 536,
+    "name" : "Specialist",
+    "layer" : 1
+  }, {
+    "node" : 20955,
+    "name" : "Project Management",
+    "layer" : 1
+  }, {
+    "node" : 21900,
+    "name" : "Consulting",
+    "layer" : 1
+  }, {
+    "node" : 37122,
+    "name" : "Music",
+    "layer" : 1
+  }, {
+    "node" : 4678988,
+    "name" : "Tattoo Artist",
+    "layer" : 1
+  }, {
+    "node" : 21172,
+    "name" : "Platform",
+    "layer" : 1
+  }, {
+    "node" : 38247,
+    "name" : "Mind",
+    "layer" : 1
+  }, {
+    "node" : 21598,
+    "name" : "Service",
+    "layer" : 1
+  } ],
+  "links" : [ {
+    "source" : 0,
+    "target" : 13,
+    "value" : 1.2647233874907282
+  }, {
+    "source" : 0,
+    "target" : 28,
+    "value" : 1.6212523023201364
+  }, {
+    "source" : 0,
+    "target" : 20,
+    "value" : 1.6291914201540925
+  }, {
+    "source" : 0,
+    "target" : 16,
+    "value" : 1.6506811318180836
+  }, {
+    "source" : 0,
+    "target" : 18,
+    "value" : 1.6633998228782032
+  }, {
+    "source" : 0,
+    "target" : 23,
+    "value" : 1.6914585049482467
+  }, {
+    "source" : 0,
+    "target" : 52,
+    "value" : 1.74947144447408
+  }, {
+    "source" : 0,
+    "target" : 27,
+    "value" : 1.750650551379359
+  }, {
+    "source" : 0,
+    "target" : 51,
+    "value" : 1.7661151099104377
+  }, {
+    "source" : 0,
+    "target" : 33,
+    "value" : 1.7723938618802548
+  }, {
+    "source" : 1,
+    "target" : 24,
+    "value" : 0.8902002494567862
+  }, {
+    "source" : 1,
+    "target" : 20,
+    "value" : 0.9302168890711549
+  }, {
+    "source" : 1,
+    "target" : 32,
+    "value" : 1.1236323672693749
+  }, {
+    "source" : 1,
+    "target" : 22,
+    "value" : 1.1562721969122547
+  }, {
+    "source" : 1,
+    "target" : 15,
+    "value" : 1.1578711533658903
+  }, {
+    "source" : 1,
+    "target" : 48,
+    "value" : 1.1637046378621096
+  }, {
+    "source" : 1,
+    "target" : 50,
+    "value" : 1.1745190502407998
+  }, {
+    "source" : 1,
+    "target" : 40,
+    "value" : 1.1759433909835626
+  }, {
+    "source" : 1,
+    "target" : 30,
+    "value" : 1.1888075049253999
+  }, {
+    "source" : 1,
+    "target" : 21,
+    "value" : 1.2018712985241709
+  }, {
+    "source" : 2,
+    "target" : 19,
+    "value" : 0.6231821985557984
+  }, {
+    "source" : 2,
+    "target" : 31,
+    "value" : 0.6524522474491612
+  }, {
+    "source" : 2,
+    "target" : 46,
+    "value" : 0.6589652623534081
+  }, {
+    "source" : 2,
+    "target" : 11,
+    "value" : 0.6789418140481163
+  }, {
+    "source" : 2,
+    "target" : 36,
+    "value" : 0.6798532682522984
+  }, {
+    "source" : 2,
+    "target" : 35,
+    "value" : 0.7181693813993006
+  }, {
+    "source" : 2,
+    "target" : 10,
+    "value" : 0.7203675888007566
+  }, {
+    "source" : 2,
+    "target" : 37,
+    "value" : 0.7352140923742689
+  }, {
+    "source" : 2,
+    "target" : 34,
+    "value" : 0.7477287710458658
+  }, {
+    "source" : 2,
+    "target" : 47,
+    "value" : 0.7819008220120416
+  }, {
+    "source" : 3,
+    "target" : 22,
+    "value" : 0.7260564532567115
+  }, {
+    "source" : 3,
+    "target" : 35,
+    "value" : 0.7273102359712047
+  }, {
+    "source" : 3,
+    "target" : 39,
+    "value" : 0.7625958706061342
+  }, {
+    "source" : 3,
+    "target" : 53,
+    "value" : 0.7695006825769557
+  }, {
+    "source" : 3,
+    "target" : 15,
+    "value" : 0.8420108504041723
+  }, {
+    "source" : 3,
+    "target" : 10,
+    "value" : 0.8625091022653342
+  }, {
+    "source" : 3,
+    "target" : 45,
+    "value" : 0.9206630320108977
+  }, {
+    "source" : 3,
+    "target" : 17,
+    "value" : 0.9208941839849172
+  }, {
+    "source" : 3,
+    "target" : 25,
+    "value" : 0.9339321394172118
+  }, {
+    "source" : 3,
+    "target" : 32,
+    "value" : 0.9360198439655376
+  }, {
+    "source" : 4,
+    "target" : 14,
+    "value" : 0.5996469718020792
+  }, {
+    "source" : 4,
+    "target" : 30,
+    "value" : 0.7221061053217315
+  }, {
+    "source" : 4,
+    "target" : 24,
+    "value" : 0.7243493596018657
+  }, {
+    "source" : 4,
+    "target" : 49,
+    "value" : 0.7309818651664879
+  }, {
+    "source" : 4,
+    "target" : 12,
+    "value" : 0.7427227887692378
+  }, {
+    "source" : 4,
+    "target" : 32,
+    "value" : 0.7848424480708294
+  }, {
+    "source" : 4,
+    "target" : 35,
+    "value" : 0.8049503540087799
+  }, {
+    "source" : 4,
+    "target" : 26,
+    "value" : 0.8196971570702027
+  }, {
+    "source" : 4,
+    "target" : 20,
+    "value" : 0.8350207467559589
+  }, {
+    "source" : 4,
+    "target" : 42,
+    "value" : 0.8404894126121298
+  }, {
+    "source" : 5,
+    "target" : 35,
+    "value" : 0.46452012562786305
+  }, {
+    "source" : 5,
+    "target" : 15,
+    "value" : 0.4796828836009137
+  }, {
+    "source" : 5,
+    "target" : 34,
+    "value" : 0.5700057652797075
+  }, {
+    "source" : 5,
+    "target" : 37,
+    "value" : 0.575668525372125
+  }, {
+    "source" : 5,
+    "target" : 10,
+    "value" : 0.6345329683821677
+  }, {
+    "source" : 5,
+    "target" : 39,
+    "value" : 0.6447445186008549
+  }, {
+    "source" : 5,
+    "target" : 32,
+    "value" : 0.6513206774607583
+  }, {
+    "source" : 5,
+    "target" : 22,
+    "value" : 0.6625369535093928
+  }, {
+    "source" : 5,
+    "target" : 49,
+    "value" : 0.6660356486084806
+  }, {
+    "source" : 5,
+    "target" : 24,
+    "value" : 0.7157930331665918
+  }, {
+    "source" : 6,
+    "target" : 20,
+    "value" : 0.6616957986313987
+  }, {
+    "source" : 6,
+    "target" : 24,
+    "value" : 0.7627719262171762
+  }, {
+    "source" : 6,
+    "target" : 40,
+    "value" : 0.8002126299037782
+  }, {
+    "source" : 6,
+    "target" : 13,
+    "value" : 0.9226307699217706
+  }, {
+    "source" : 6,
+    "target" : 32,
+    "value" : 0.9790272875769968
+  }, {
+    "source" : 6,
+    "target" : 30,
+    "value" : 1.0062613156938305
+  }, {
+    "source" : 6,
+    "target" : 54,
+    "value" : 1.0384256393954994
+  }, {
+    "source" : 6,
+    "target" : 14,
+    "value" : 1.0435480193967583
+  }, {
+    "source" : 6,
+    "target" : 29,
+    "value" : 1.0529160867831167
+  }, {
+    "source" : 6,
+    "target" : 55,
+    "value" : 1.0559067137926526
+  }, {
+    "source" : 7,
+    "target" : 22,
+    "value" : 0.8515309897191581
+  }, {
+    "source" : 7,
+    "target" : 24,
+    "value" : 0.8806998907950769
+  }, {
+    "source" : 7,
+    "target" : 39,
+    "value" : 0.9045321680549001
+  }, {
+    "source" : 7,
+    "target" : 15,
+    "value" : 0.9427957281221144
+  }, {
+    "source" : 7,
+    "target" : 32,
+    "value" : 0.9801338381612823
+  }, {
+    "source" : 7,
+    "target" : 35,
+    "value" : 1.059448183634405
+  }, {
+    "source" : 7,
+    "target" : 20,
+    "value" : 1.0638590871523879
+  }, {
+    "source" : 7,
+    "target" : 10,
+    "value" : 1.1140428182557316
+  }, {
+    "source" : 7,
+    "target" : 30,
+    "value" : 1.1259192914244798
+  }, {
+    "source" : 7,
+    "target" : 44,
+    "value" : 1.1571046867588686
+  }, {
+    "source" : 8,
+    "target" : 43,
+    "value" : 1.3570650019745567
+  }, {
+    "source" : 8,
+    "target" : 13,
+    "value" : 1.77533199104993
+  }, {
+    "source" : 8,
+    "target" : 39,
+    "value" : 1.77594776974914
+  }, {
+    "source" : 8,
+    "target" : 20,
+    "value" : 1.7943586237534592
+  }, {
+    "source" : 8,
+    "target" : 44,
+    "value" : 1.8150653183663612
+  }, {
+    "source" : 8,
+    "target" : 38,
+    "value" : 1.8233975890254461
+  }, {
+    "source" : 8,
+    "target" : 32,
+    "value" : 1.8237979454280984
+  }, {
+    "source" : 8,
+    "target" : 22,
+    "value" : 1.8266343558100528
+  }, {
+    "source" : 8,
+    "target" : 30,
+    "value" : 1.8308809869078957
+  }, {
+    "source" : 8,
+    "target" : 49,
+    "value" : 1.8339315686200774
+  }, {
+    "source" : 9,
+    "target" : 12,
+    "value" : 0.6293031090493728
+  }, {
+    "source" : 9,
+    "target" : 14,
+    "value" : 0.6419269639457326
+  }, {
+    "source" : 9,
+    "target" : 49,
+    "value" : 0.6605052787421339
+  }, {
+    "source" : 9,
+    "target" : 42,
+    "value" : 0.7549180774478903
+  }, {
+    "source" : 9,
+    "target" : 30,
+    "value" : 0.8348903192443469
+  }, {
+    "source" : 9,
+    "target" : 41,
+    "value" : 0.9349980455545859
+  }, {
+    "source" : 9,
+    "target" : 24,
+    "value" : 0.952616032242467
+  }, {
+    "source" : 9,
+    "target" : 26,
+    "value" : 0.9613562417797494
+  }, {
+    "source" : 9,
+    "target" : 35,
+    "value" : 0.9724027802000701
+  }, {
+    "source" : 9,
+    "target" : 32,
+    "value" : 0.9802253204580846
+  } ]
+}

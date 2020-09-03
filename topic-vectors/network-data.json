@@ -1,0 +1,232 @@
+{
+  "nodes" : [ {
+    "id" : 137,
+    "name" : "jobs & career Switzerland",
+    "nodeType" : 0
+  }, {
+    "id" : 108,
+    "name" : "new work & NWX",
+    "nodeType" : 0
+  }, {
+    "id" : 104,
+    "name" : "jobs & career",
+    "nodeType" : 0
+  }, {
+    "id" : 75,
+    "name" : "mechanics & mechatronics",
+    "nodeType" : 0
+  }, {
+    "id" : 305,
+    "name" : "DIY & gardening",
+    "nodeType" : 0
+  }, {
+    "id" : 200,
+    "name" : "human resources Switzerland",
+    "nodeType" : 0
+  }, {
+    "id" : 111,
+    "name" : "leadership & management",
+    "nodeType" : 0
+  }, {
+    "id" : 4678986,
+    "name" : "Industrial Mechanic",
+    "nodeType" : 1
+  }, {
+    "id" : 570,
+    "name" : "Mechanic",
+    "nodeType" : 1
+  }, {
+    "id" : 19868,
+    "name" : "Processes",
+    "nodeType" : 1
+  }, {
+    "id" : 31252,
+    "name" : "Wood cutting",
+    "nodeType" : 1
+  }, {
+    "id" : 5220,
+    "name" : "Mechanic",
+    "nodeType" : 1
+  }, {
+    "id" : 18286,
+    "name" : "Enthusiasm",
+    "nodeType" : 1
+  }, {
+    "id" : 24152,
+    "name" : "Management",
+    "nodeType" : 1
+  }, {
+    "id" : 468754,
+    "name" : "German",
+    "nodeType" : 1
+  }, {
+    "id" : 4582,
+    "name" : "Handyman",
+    "nodeType" : 1
+  }, {
+    "id" : 27401,
+    "name" : "Screws and Fasteners Nails",
+    "nodeType" : 1
+  }, {
+    "id" : 37085,
+    "name" : "Management",
+    "nodeType" : 1
+  }, {
+    "id" : 468803,
+    "name" : "Hardware store",
+    "nodeType" : 1
+  }, {
+    "id" : 33630,
+    "name" : "Repairing",
+    "nodeType" : 1
+  }, {
+    "id" : 20695,
+    "name" : "Do-It-Yourself",
+    "nodeType" : 1
+  }, {
+    "id" : 6627,
+    "name" : "Mechatronics Technician",
+    "nodeType" : 1
+  } ],
+  "links" : [ {
+    "source" : 200,
+    "target" : 37085,
+    "value" : 0.9140983360012878
+  }, {
+    "source" : 75,
+    "target" : 4678986,
+    "value" : 0.8806453935861985
+  }, {
+    "source" : 111,
+    "target" : 18286,
+    "value" : 0.9231826038134014
+  }, {
+    "source" : 137,
+    "target" : 468754,
+    "value" : 0.9181317825025859
+  }, {
+    "source" : 75,
+    "target" : 5220,
+    "value" : 0.9986730523301103
+  }, {
+    "source" : 200,
+    "target" : 18286,
+    "value" : 0.9207874176955733
+  }, {
+    "source" : 111,
+    "target" : 468754,
+    "value" : 0.9244507810026428
+  }, {
+    "source" : 200,
+    "target" : 24152,
+    "value" : 0.9202082318048515
+  }, {
+    "source" : 200,
+    "target" : 468754,
+    "value" : 0.9225562036314932
+  }, {
+    "source" : 104,
+    "target" : 18286,
+    "value" : 0.9200407755798238
+  }, {
+    "source" : 137,
+    "target" : 37085,
+    "value" : 0.9131731627322042
+  }, {
+    "source" : 104,
+    "target" : 37085,
+    "value" : 0.9054496708964891
+  }, {
+    "source" : 75,
+    "target" : 6627,
+    "value" : 0.882596515021531
+  }, {
+    "source" : 75,
+    "target" : 570,
+    "value" : 0.9746729646889283
+  }, {
+    "source" : 108,
+    "target" : 468754,
+    "value" : 0.9158799605805581
+  }, {
+    "source" : 111,
+    "target" : 24152,
+    "value" : 0.9257058118129378
+  }, {
+    "source" : 305,
+    "target" : 27401,
+    "value" : 0.7483537113856797
+  }, {
+    "source" : 200,
+    "target" : 19868,
+    "value" : 0.9174835123134019
+  }, {
+    "source" : 111,
+    "target" : 19868,
+    "value" : 0.9194149563735979
+  }, {
+    "source" : 104,
+    "target" : 19868,
+    "value" : 0.9054294055061112
+  }, {
+    "source" : 104,
+    "target" : 468754,
+    "value" : 0.9184017092822953
+  }, {
+    "source" : 137,
+    "target" : 19868,
+    "value" : 0.9113975451915303
+  }, {
+    "source" : 108,
+    "target" : 37085,
+    "value" : 0.9136666091516059
+  }, {
+    "source" : 108,
+    "target" : 24152,
+    "value" : 0.9189252501238094
+  }, {
+    "source" : 305,
+    "target" : 20695,
+    "value" : 0.8620927651739897
+  }, {
+    "source" : 75,
+    "target" : 33630,
+    "value" : 0.8686324663895614
+  }, {
+    "source" : 137,
+    "target" : 24152,
+    "value" : 0.9182455711532677
+  }, {
+    "source" : 305,
+    "target" : 31252,
+    "value" : 0.7629466442425058
+  }, {
+    "source" : 111,
+    "target" : 37085,
+    "value" : 0.9205890650729165
+  }, {
+    "source" : 305,
+    "target" : 468803,
+    "value" : 0.7456276176131175
+  }, {
+    "source" : 104,
+    "target" : 24152,
+    "value" : 0.9105323864961231
+  }, {
+    "source" : 137,
+    "target" : 18286,
+    "value" : 0.9177269657455251
+  }, {
+    "source" : 108,
+    "target" : 19868,
+    "value" : 0.9112548654188907
+  }, {
+    "source" : 108,
+    "target" : 18286,
+    "value" : 0.9192219107462241
+  }, {
+    "source" : 305,
+    "target" : 4582,
+    "value" : 0.8644926700787292
+  } ]
+}

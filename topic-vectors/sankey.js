@@ -22,7 +22,7 @@ var sankey = d3.sankey()
     .size([width, height]);
 
 // load the data
-d3.json("data.json", function(error, graph) {
+d3.json("sankey-data.json", function(error, graph) {
 
   // Constructs a new Sankey generator with the default settings.
   sankey
@@ -38,6 +38,7 @@ d3.json("data.json", function(error, graph) {
     .append("path")
       .attr("class", "link")
       .attr("d", sankey.link() )
+      .attr("style", function(d) { console.log(d); return "stroke: " + color(d.source.name.replace(/ .*/, ""));})
       .style("stroke-width", function(d) { return Math.max(1, d.dy); })
       .sort(function(a, b) { return b.dy - a.dy; });
 

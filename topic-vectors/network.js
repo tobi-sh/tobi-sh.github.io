@@ -1,8 +1,8 @@
 
 // set the dimensions and margins of the graph
 var margin = {top: 0, right: 0, bottom: 0, left: 0},
-  width = 1500 - margin.left - margin.right,
-  height = 1500 - margin.top - margin.bottom;
+  width = 2500 - margin.left - margin.right,
+  height = 2500 - margin.top - margin.bottom;
 
 // append the svg object to the body of the page
 var svg = d3.select("#chart")
@@ -21,7 +21,7 @@ d3.json("network-data.json", function( data) {
     .data(data.links)
     .enter()
     .append("line")
-      .style("stroke", "#aaa")
+      .style("stroke", "#000000")
       .style("stroke-opacity", "0.5")
       .style("stroke-width", function(d) {return d.value*3;})
       .attr("class", function(d) { return "e"+d.source + " e" + d.target;})
@@ -46,6 +46,7 @@ d3.json("network-data.json", function( data) {
         .attr("font-family", "sans-serif")
         .attr("font-size", 12)
         .attr("font-variant", "small-caps")
+        .attr("id", function(d) {return d.id})
         .text(function(d) {return d.name;})
 
   // Let's list the force we wanna apply on the network
@@ -55,9 +56,9 @@ d3.json("network-data.json", function( data) {
             .links(data.links)                                    // and this the list of links
       )
 //      .force("link", d3.forceLink(link).id(d => d.id))
-      .force("charge", d3.forceManyBody().strength(-50))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
+      .force("charge", d3.forceManyBody().strength(-20))         // This adds repulsion between nodes. Play with the -400 for the repulsion strength
       .force("center", d3.forceCenter(width / 2, height / 2))     // This force attracts nodes to the center of the svg area
-      .force("collision", d3.forceCollide(30))
+      .force("collision", d3.forceCollide(40))
       .on("tick", ticked)
       .on("end", ticked);
 
@@ -78,28 +79,41 @@ d3.json("network-data.json", function( data) {
         .attr("y", function(d) {return d.y - 6;})
   }
 
+
+  function highlightNode(myId, opacity) {
+      var linksOfMine = d3.selectAll(".e" + myId)
+      var targets = []
+      for (i=0; i<linksOfMine._groups[0].length; i++) {
+          targetId = linksOfMine._groups[0][i].attributes["class"].nodeValue.split(" ").filter(function(d) {return d != "e" + myId;})[0];
+          targetId = targetId.replace("e", "")
+          d3.selectAll('[id="'+targetId+'"]').style("opacity", opacity)
+          targets.push(targetId)
+      }
+      linksOfMine.style("stroke-opacity", opacity)
+      return targets;
+  }
+
   function handleMouseOver(d,i) {
     // hide away all nodes
     d3.selectAll("circle").style("opacity", "0.1")
     d3.selectAll("line").style("stroke-opacity", "0.1")
+    d3.selectAll("text").style("opacity", "0.1")
 
     // highlight all connected nodes:
-    var myId = this.id
-    var linksOfMine = d3.selectAll(".e" + myId)
-    for (i=0; i<linksOfMine._groups[0].length; i++) {
-        targetId = linksOfMine._groups[0][i].attributes["class"].nodeValue.split(" ").filter(function(d) {return d != "e" + myId;})[0];
-        targetId = targetId.replace("e", "")
-        d3.selectAll('[id="'+targetId+'"]').style("opacity", "1")
+
+    var targets = highlightNode(this.id, 1.0)
+    for (i in targets) {
+        highlightNode(targets[i], 0.5)
     }
-
-    linksOfMine.style("stroke-opacity", "1.0")
-    d3.select('[id="'+this.id+'"]').style("opacity", "1")
-
+    highlightNode(this.id, 1.0)
+    d3.selectAll('[id="'+this.id+'"]').style("opacity", "1")
   }
+
 
   function handleMouseOut(d,i) {
       d3.selectAll("circle").style("opacity", "1")
       d3.selectAll("line").style("stroke-opacity", "1")
+      d3.selectAll("text").style("opacity", "1")
   }
 
 });
